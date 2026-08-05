@@ -1,1 +1,2 @@
-# Gest-o-de-Empr-stimo-de-Equipamentos-em-Universidades-Laborat-rios
+# Gestão de Empréstimo de Equipamentos em Universidades / Laboratórios
+
