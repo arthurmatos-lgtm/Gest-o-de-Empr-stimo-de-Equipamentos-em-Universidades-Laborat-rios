@@ -103,3 +103,14 @@ Critério de Aceitação — RF3 (Renovação Remota)
 Dado que o aluno possui um equipamento emprestado e não existem reservas pendentes de outros usuários para esse item,
 Quando o aluno solicitar a renovação remota pelo aplicativo móvel e assinar o comprovante digitalmente,
 Então o sistema deve estender o prazo de devolução por mais 7 dias e emitir a confirmação da renovação na tela.
+```
+
+## Histórico de uso de IA
+
+| Etapa | Data | Ferramenta | Partes em que foi usada | O que foi feito sem apoio de IA |
+|-------|------|------------|---------------------------|-----------------------------------|
+| Atividade 3 | 18/08/2026 | gemini | Foi usado para conduzir a entrevista a IA criando uma persona do stakeholder escolhido pela equipe | |
+| Atividade 4 | 25/08/2026 | gemini | Ia fez a reformulação da escrita e revisão geral para a entrega final dos textos escritos | Foi usado a revisão de escrita geral para explicação e outras partes da escrita |
+| AP1 | *a preencher no Encontro 6* | | | |
+| AP2 | *a preencher no Encontro * | | | |
+| AS | *a preencher no Encontro * | | | |
