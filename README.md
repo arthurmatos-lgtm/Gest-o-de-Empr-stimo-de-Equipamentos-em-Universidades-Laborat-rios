@@ -33,7 +33,6 @@ Cotidiano de laboratórios de ensino/pesquisa, centrais de multimídia e departa
 ---
 
 ## Ciclo de Vida Escolhido e Justificativa
-
 Optou-se por uma **abordagem híbrida: Incremental + Ágil**.
 
 ### **Justificativa da Defesa:**
@@ -43,7 +42,6 @@ Optou-se por uma **abordagem híbrida: Incremental + Ágil**.
 ---
 
 ## Técnica de Elicitação Aplicada
-
 A técnica aplicada foi a **Entrevista Semiestruturada** realizada com o papel de Coordenador de Curso / Chefe de Departamento (Prof.ª Helena).
 
 ### **Por que a Entrevista?**
@@ -71,8 +69,6 @@ Permitiu extrair dores reais do fluxo diário, entender exceções de prazo (ex:
 ---
 
 ## Priorização de Requisitos (Matriz MoSCoW)
-
-A priorização foi definida para garantir que o *Core System* garanta controle e resolva a inadimplência desde o primeiro dia de operação:
 
 | Categoria | Item | Descrição / Justificativa |
 | :--- | :--- | :--- |
