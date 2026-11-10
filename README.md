@@ -53,14 +53,14 @@ Permitiu extrair dores reais do fluxo diário, entender exceções de prazo (ex:
 
 ### **Regras de Negócio (RN)**
 * **RN1:** Usuários com pendências ou atrasos na devolução de equipamentos ficam impedidos de realizar novos empréstimos e reservas até a regularização do débito.
-* **RN2:** O prazo padrão de empréstimo para qualquer equipamento é de **7 dias corridos** a partir da confirmação da retirada.
+* **RN2:** *O prazo inicial é de 7 dias corridos. É permitida no máximo 1 (uma) renovação remota por mais 7 dias via App Mobile, desde que o aluno esteja adimplente (RN1), realize a reassinatura digital do termo (US1) e não exista nenhum outro aluno na fila de espera do equipamento (RF4).*
 
 ### **Requisitos Funcionais (RF) e Histórias de Usuário (US)**
 * **RF1:** O sistema deve bloquear automaticamente novas solicitações de empréstimo e reserva para usuários que possuírem pendências ou atrasos na devolução.
-  * **US2:** *Como coordenadora do departamento, quero que o sistema bloqueie usuários em atraso, para garantir um acesso justo aos equipamentos para todos os alunos.*
+* **US2:** *Como coordenadora do departamento, quero que o sistema bloqueie usuários em atraso, para garantir um acesso justo aos equipamentos para todos os alunos.*
 * **RF2:** O sistema deve enviar uma notificação de lembrete por e-mail e aplicativo ao usuário 24 horas antes do prazo de devolução expirar.
 * **RF3:** O sistema deve permitir a renovação remota do empréstimo de um equipamento e a assinatura digital do termo de responsabilidade, caso não existam solicitações de reserva pendentes na fila para o mesmo item.
-  * **US1:** *Como aluno do curso, quero renovar o empréstimo do meu equipamento pelo celular e assinar o comprovante digitalmente, para que não precise me deslocar até o laboratório apenas para assinar documentos.*
+  * **US1:** *Como aluno, quero solicitar a renovação remota do meu empréstimo no App por mais 7 dias, para não precisar ir ao balcão quando o equipamento não estiver sendo aguardado por outro colega.*
 
 ### **Requisitos Não Funcionais (RNF)**
 * **RNF1:** O serviço de mensageria interna do sistema deve processar e encaminhar à API de disparo **100% das notificações (e-mail e push) em até 30 segundos** após atingir o gatilho de 24 horas antecedentes ao vencimento.
