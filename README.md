@@ -1,7 +1,7 @@
 # Gestão de Empréstimo de Equipamentos em Universidades e Laboratórios
 
 > **Disciplina:** Processos de Engenharia de Software — ULBRA  
-> **Versão Atual:** `v2.0` (Versão Final AS) | [Ver CHANGELOG.md](./CHANGELOG.md)  
+> **Versão Atual:** `v1.1.0` (Versão Final AS) | [Ver CHANGELOG.md](./CHANGELOG.md)  
 > **Protótipo:** [Acessar Protótipo Interativo](https://www.figma.com/proto/mMbNANZy53PAsDArtVP9SP/Untitled?node-id=2-2&p=f&t=hU1RkH9PPpAKbjCj-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1)
 
 ---
